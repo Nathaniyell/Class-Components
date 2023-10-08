@@ -1,8 +1,11 @@
+import React from "react"
+import Users from "./components/Users"
+
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Users />
     </div>
   );
 }
