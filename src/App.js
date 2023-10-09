@@ -1,5 +1,5 @@
-import UserFinder from './components/UserFinder';
-import UsersContext from './store/users-context';
+import UserFinder from './components/ClassBasedUserFinder';
+import UsersContext from "./store/users-context";
 
 const DUMMY_USERS = [
   { id: 'u1', name: 'Max' },
